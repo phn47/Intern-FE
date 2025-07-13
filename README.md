@@ -45,24 +45,32 @@ Một ứng dụng web hiện đại cho sàn giáo dục thương mại điện
 
 ```
 src/
-├── components/          # React components
-│   ├── Header.js       # Navigation header
-│   ├── SearchAndFilter.js # Search and filter controls
-│   ├── ProductCard.js  # Product display card
-│   ├── ProductModal.js # Product detail modal
-│   ├── Toast.js        # Notification component
-│   ├── TagList.js      # Tag color component (nhất quán màu)
-│   ├── SuggestionSkeleton.js # Loading skeleton cho AI suggestions
-│   └── ELearningPlatform.js # Main component
-├── data/               # Mock data
-│   └── mockData.js     # Products, categories, suggestions
-├── services/           # API services
-│   └── api.js          # Mock API calls
-├── utils/              # Helper functions
-│   └── helpers.js      # Utility functions
-├── App.js              # Root component
-├── index.js            # Entry point
-└── index.css           # Global styles
+├── components/              # React components UI/UX
+│   ├── Header.js            # Thanh điều hướng, logo, user menu
+│   ├── Footer.js            # Footer website
+│   ├── ELearningPlatform.js # Trang chính, quản lý state tổng
+│   ├── ProductCard.js       # Thẻ hiển thị khóa học
+│   ├── ProductModal.js      # Modal chi tiết khóa học
+│   ├── SearchAndFilter.js   # Bộ lọc, tìm kiếm
+│   ├── TagList.js           # Hiển thị tag màu nhất quán
+│   ├── Toast.js             # Thông báo/toast
+│   ├── SuggestionSkeleton.js# Skeleton loading cho AI gợi ý
+│   ├── AIChatbot.js         # Chatbot AI tư vấn khóa học
+│   ├── CartPage.js          # Trang giỏ hàng
+│   └── FloatingComments.js  # Feedback học viên chạy ngang
+├── data/                   # Dữ liệu mock
+│   └── mockData.js         # Sản phẩm, bình luận, danh mục, v.v.
+├── services/               # API services (mock)
+│   └── api.js              # Hàm gọi API giả lập
+├── utils/                  # Helper functions
+│   └── helpers.js          # Hàm tiện ích, localStorage, lịch sử xem
+├── assets/                 # Tài nguyên tĩnh
+│   └── icons/              # Icon, linh vật, logo
+│       ├── Pet1_NBG.png    # Linh vật chính
+│       └── Pet1.png        # Icon phụ
+├── App.js                  # Root component
+├── index.js                # Entry point
+└── index.css               # Global styles, Tailwind, animation
 ```
 
 ## 🚀 Hướng dẫn Build & Run
