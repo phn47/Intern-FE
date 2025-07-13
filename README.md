@@ -233,8 +233,8 @@ MIT License - xem file [LICENSE](LICENSE) để biết thêm chi tiết.
 ## 👨‍💻 Tác giả
 
 **EduAI Team**
-- Email: contact@eduai.com
-- Website: https://eduai.com
+- Email: phamnam1449@gmail.com
+- Website: https://intern-fe-one.vercel.app
 
 ---
 
